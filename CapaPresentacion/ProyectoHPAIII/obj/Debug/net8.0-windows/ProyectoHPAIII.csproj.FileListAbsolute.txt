@@ -1,0 +1,17 @@
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\bin\Debug\net8.0-windows\ProyectoHPAIII.exe
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\bin\Debug\net8.0-windows\ProyectoHPAIII.deps.json
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\bin\Debug\net8.0-windows\ProyectoHPAIII.runtimeconfig.json
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\bin\Debug\net8.0-windows\ProyectoHPAIII.dll
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\bin\Debug\net8.0-windows\ProyectoHPAIII.pdb
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.Form1.resources
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.csproj.GenerateResource.cache
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.AssemblyInfoInputs.cache
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.AssemblyInfo.cs
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.csproj.CoreCompileInputs.cache
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.sourcelink.json
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.dll
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\refint\ProyectoHPAIII.dll
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.pdb
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ProyectoHPAIII.genruntimeconfig.cache
+C:\Users\josev\Source\Repos\ProyectoHPAIII\CapaPresentacion\ProyectoHPAIII\obj\Debug\net8.0-windows\ref\ProyectoHPAIII.dll
