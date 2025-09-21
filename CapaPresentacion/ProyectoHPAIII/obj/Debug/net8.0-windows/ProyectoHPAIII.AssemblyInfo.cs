@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoHPAIII")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97d267efee5f7a360a68728d13f519070bc52068")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5e52cfea9394d8528ddae9e44b2af94cfca5bae")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoHPAIII")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoHPAIII")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
