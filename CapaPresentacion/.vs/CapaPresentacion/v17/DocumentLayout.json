@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Prueba\\CapaPresentacion\\",
+  "WorkspaceRootPath": "C:\\Users\\abdul\\source\\repos\\ProyectoHPAIII\\CapaPresentacion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C7B8D8B-6D08-46D6-A306-66CD6B5C371C}|ProyectoHPAIII\\ProyectoHPAIII.csproj|c:\\prueba\\capapresentacion\\proyectohpaiii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{2C7B8D8B-6D08-46D6-A306-66CD6B5C371C}|ProyectoHPAIII\\ProyectoHPAIII.csproj|c:\\users\\abdul\\source\\repos\\proyectohpaiii\\capapresentacion\\proyectohpaiii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7B8D8B-6D08-46D6-A306-66CD6B5C371C}|ProyectoHPAIII\\ProyectoHPAIII.csproj|solutionrelative:proyectohpaiii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7B8D8B-6D08-46D6-A306-66CD6B5C371C}|ProyectoHPAIII\\ProyectoHPAIII.csproj|c:\\users\\abdul\\source\\repos\\proyectohpaiii\\capapresentacion\\proyectohpaiii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2C7B8D8B-6D08-46D6-A306-66CD6B5C371C}|ProyectoHPAIII\\ProyectoHPAIII.csproj|solutionrelative:proyectohpaiii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -27,14 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Prueba\\CapaPresentacion\\ProyectoHPAIII\\Form1.cs",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\ProyectoHPAIII\\CapaPresentacion\\ProyectoHPAIII\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoHPAIII\\Program.cs",
+              "ToolTip": "C:\\Users\\abdul\\source\\repos\\ProyectoHPAIII\\CapaPresentacion\\ProyectoHPAIII\\Program.cs",
+              "RelativeToolTip": "ProyectoHPAIII\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T21:52:17.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\abdul\\source\\repos\\ProyectoHPAIII\\CapaPresentacion\\ProyectoHPAIII\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoHPAIII\\Form1.cs",
-              "ToolTip": "C:\\Prueba\\CapaPresentacion\\ProyectoHPAIII\\Form1.cs [Design]",
-              "RelativeToolTip": "ProyectoHPAIII\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\abdul\\source\\repos\\ProyectoHPAIII\\CapaPresentacion\\ProyectoHPAIII\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoHPAIII\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T21:34:20.248Z",
-              "EditorCaption": " [Design]"
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
