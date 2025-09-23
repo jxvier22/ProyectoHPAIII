@@ -8,6 +8,7 @@
     using System.Collections.Generic;
     using System.Drawing;
     using System.Windows.Forms;
+    using CapaEntidad.HPA_UI;
 
     namespace HPA_UI
     {
@@ -117,117 +118,6 @@
                     contentPanel.Controls.Add(screen);
                 }
                 // Espacio para lógica adicional al cargar pantallas nuevas
-            }
-        }
-
-        // Ejemplo de pantalla: Home
-        public class ScreenHome : UserControl
-        {
-            public ScreenHome()
-            {
-                InitializeComponent();
-            }
-
-            private void InitializeComponent()
-            {
-                this.BackColor = Color.FromArgb(40, 40, 40);
-                var lbl = new Label() { Text = "Bienvenido al Home", AutoSize = false, Dock = DockStyle.Top, Height = 60, Font = new Font("Segoe UI", 14, FontStyle.Bold), ForeColor = Color.White, TextAlign = ContentAlignment.MiddleLeft, Padding = new Padding(20, 0, 0, 0) };
-
-                var cardsPanel = new FlowLayoutPanel() { Dock = DockStyle.Top, Height = 180, AutoScroll = true, Padding = new Padding(20) };
-                for (int i = 1; i <= 3; i++)
-                {
-                    var card = new Panel() { Width = 300, Height = 140, BackColor = Color.FromArgb(55, 55, 55), Margin = new Padding(10), Padding = new Padding(10) };
-                    var h = new Label() { Text = "Tarjeta " + i, Dock = DockStyle.Top, Font = new Font("Segoe UI", 11, FontStyle.Bold), ForeColor = Color.White };
-                    var body = new Label() { Text = "Descripción breve...", Dock = DockStyle.Fill, ForeColor = Color.LightGray };
-                    card.Controls.Add(body);
-                    card.Controls.Add(h);
-                    cardsPanel.Controls.Add(card);
-                }
-
-                var mainPanel = new Panel() { Dock = DockStyle.Fill, Padding = new Padding(20) };
-                var info = new Label() { Text = "Aquí va contenido principal similar al Figma.", Dock = DockStyle.Top, Height = 200, ForeColor = Color.LightGray };
-                mainPanel.Controls.Add(info);
-
-                this.Controls.Add(mainPanel);
-                this.Controls.Add(cardsPanel);
-                this.Controls.Add(lbl);
-            }
-        }
-
-        // Ejemplo de pantalla: Profile
-        public class ScreenProfile : UserControl
-        {
-            public ScreenProfile()
-            {
-                InitializeComponent();
-            }
-            private void InitializeComponent()
-            {
-                this.BackColor = Color.FromArgb(40, 40, 40);
-                var lbl = new Label() { Text = "Perfil de usuario", Dock = DockStyle.Top, Height = 60, Font = new Font("Segoe UI", 14, FontStyle.Bold), ForeColor = Color.White, Padding = new Padding(20, 0, 0, 0) };
-
-                var panel = new Panel() { Dock = DockStyle.Top, Height = 180, Padding = new Padding(20) };
-                var avatar = new Panel() { Width = 120, Height = 120, BackColor = Color.FromArgb(70, 70, 70), Margin = new Padding(0, 0, 20, 0) };
-                var name = new Label() { Text = "Nombre Apellido", Font = new Font("Segoe UI", 12, FontStyle.Bold), ForeColor = Color.White };
-                var email = new Label() { Text = "email@ejemplo.com", ForeColor = Color.LightGray };
-
-                var left = new FlowLayoutPanel() { Dock = DockStyle.Left, Width = 400, FlowDirection = FlowDirection.LeftToRight, Padding = new Padding(20) };
-                left.Controls.Add(avatar);
-                var info = new Panel() { Width = 250 };
-                info.Controls.Add(name);
-                info.Controls.Add(email);
-                left.Controls.Add(info);
-
-                this.Controls.Add(left);
-                this.Controls.Add(lbl);
-            }
-        }
-
-        // Ejemplo de pantalla: Reports
-        public class ScreenReports : UserControl
-        {
-            public ScreenReports()
-            {
-                InitializeComponent();
-            }
-
-            private void InitializeComponent()
-            {
-                this.BackColor = Color.FromArgb(40, 40, 40);
-                var lbl = new Label() { Text = "Reportes", Dock = DockStyle.Top, Height = 60, Font = new Font("Segoe UI", 14, FontStyle.Bold), ForeColor = Color.White, Padding = new Padding(20, 0, 0, 0) };
-
-                var table = new DataGridView() { Dock = DockStyle.Fill, BackgroundColor = Color.FromArgb(45, 45, 45), ForeColor = Color.White, AllowUserToAddRows = false };
-                table.Columns.Add("col1", "ID");
-                table.Columns.Add("col2", "Nombre");
-                table.Columns.Add("col3", "Estado");
-                table.Rows.Add("1", "Elemento A", "Activo");
-                table.Rows.Add("2", "Elemento B", "Inactivo");
-
-                this.Controls.Add(table);
-                this.Controls.Add(lbl);
-            }
-        }
-
-        // Ejemplo de pantalla: Settings
-        public class ScreenSettings : UserControl
-        {
-            public ScreenSettings()
-            {
-                InitializeComponent();
-            }
-
-            private void InitializeComponent()
-            {
-                this.BackColor = Color.FromArgb(40, 40, 40);
-                var lbl = new Label() { Text = "Ajustes", Dock = DockStyle.Top, Height = 60, Font = new Font("Segoe UI", 14, FontStyle.Bold), ForeColor = Color.White, Padding = new Padding(20, 0, 0, 0) };
-
-                var panel = new FlowLayoutPanel() { Dock = DockStyle.Top, Height = 200, Padding = new Padding(20), FlowDirection = FlowDirection.TopDown };
-                panel.Controls.Add(new CheckBox() { Text = "Habilitar notificaciones", ForeColor = Color.White, AutoSize = true });
-                panel.Controls.Add(new CheckBox() { Text = "Modo oscuro", ForeColor = Color.White, AutoSize = true });
-                panel.Controls.Add(new Button() { Text = "Guardar cambios", Width = 160, Height = 36 });
-
-                this.Controls.Add(panel);
-                this.Controls.Add(lbl);
             }
         }
 
