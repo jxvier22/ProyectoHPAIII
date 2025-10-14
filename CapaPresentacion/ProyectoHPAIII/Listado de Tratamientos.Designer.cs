@@ -38,7 +38,14 @@
             botonAdministradores = new Button();
             botonClinicas = new Button();
             label1 = new Label();
+            label2 = new Label();
+            textBox1 = new TextBox();
+            comboBox1 = new ComboBox();
+            label3 = new Label();
+            button2 = new Button();
+            dataGridView1 = new DataGridView();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -182,21 +189,87 @@
             label1.Font = new Font("Mulish", 23.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(326, 78);
             label1.Name = "label1";
-            label1.Size = new Size(150, 55);
+            label1.Size = new Size(278, 55);
             label1.TabIndex = 4;
-            label1.Text = "Clínica";
+            label1.Text = "Tratamientos";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(365, 191);
+            label2.Name = "label2";
+            label2.Size = new Size(77, 27);
+            label2.TabIndex = 7;
+            label2.Text = "Buscar";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(448, 191);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(205, 27);
+            textBox1.TabIndex = 6;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(814, 190);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(125, 28);
+            comboBox1.TabIndex = 9;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(750, 190);
+            label3.Name = "label3";
+            label3.Size = new Size(58, 27);
+            label3.TabIndex = 8;
+            label3.Text = "Filtro";
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.SteelBlue;
+            button2.FlatAppearance.BorderColor = Color.SteelBlue;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(1083, 177);
+            button2.Name = "button2";
+            button2.Size = new Size(144, 40);
+            button2.TabIndex = 10;
+            button2.Text = "Agregar";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(372, 267);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(878, 240);
+            dataGridView1.TabIndex = 12;
             // 
             // Pantalla13
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1262, 673);
+            Controls.Add(dataGridView1);
+            Controls.Add(button2);
+            Controls.Add(comboBox1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Pantalla13";
             Text = "Pantalla13";
             panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -213,5 +286,11 @@
         private Button botonMedicos;
         private Button botonPacientes;
         private Label label1;
+        private Label label2;
+        private TextBox textBox1;
+        private ComboBox comboBox1;
+        private Label label3;
+        private Button button2;
+        private DataGridView dataGridView1;
     }
 }
