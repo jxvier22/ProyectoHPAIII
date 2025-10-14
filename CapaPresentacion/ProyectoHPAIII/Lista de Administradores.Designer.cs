@@ -81,10 +81,11 @@
             // 
             // botonAdministradores
             // 
-            botonAdministradores.BackColor = Color.White;
+            botonAdministradores.BackColor = Color.SteelBlue;
             botonAdministradores.FlatAppearance.BorderColor = Color.White;
             botonAdministradores.FlatStyle = FlatStyle.Flat;
             botonAdministradores.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            botonAdministradores.ForeColor = SystemColors.ButtonHighlight;
             botonAdministradores.Location = new Point(0, 287);
             botonAdministradores.Margin = new Padding(3, 4, 3, 4);
             botonAdministradores.Name = "botonAdministradores";
@@ -111,11 +112,11 @@
             // 
             // botonClinicas
             // 
-            botonClinicas.BackColor = Color.SteelBlue;
+            botonClinicas.BackColor = Color.White;
             botonClinicas.FlatAppearance.BorderColor = Color.White;
             botonClinicas.FlatStyle = FlatStyle.Flat;
             botonClinicas.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonClinicas.ForeColor = SystemColors.ButtonHighlight;
+            botonClinicas.ForeColor = Color.Black;
             botonClinicas.Location = new Point(0, 222);
             botonClinicas.Margin = new Padding(3, 4, 3, 4);
             botonClinicas.Name = "botonClinicas";
@@ -142,6 +143,7 @@
             // 
             // panel1
             // 
+            panel1.BackColor = SystemColors.ButtonFace;
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
@@ -236,6 +238,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
             ClientSize = new Size(1262, 673);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
