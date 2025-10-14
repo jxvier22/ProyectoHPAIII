@@ -45,7 +45,9 @@
             button1 = new Button();
             comboBox2 = new ComboBox();
             label4 = new Label();
+            dataGridView1 = new DataGridView();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -256,12 +258,22 @@
             label4.Text = "Estado";
             label4.Click += this.label4_Click;
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Location = new Point(380, 248);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
+            dataGridView1.Size = new Size(878, 240);
+            dataGridView1.TabIndex = 11;
+            // 
             // Pantalla14
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             ClientSize = new Size(1280, 720);
+            Controls.Add(dataGridView1);
             Controls.Add(comboBox2);
             Controls.Add(label4);
             Controls.Add(button1);
@@ -280,6 +292,7 @@
             Text = "Pantalla14";
             Load += Pantalla14_Load;
             panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -303,5 +316,6 @@
         private Button button1;
         private ComboBox comboBox2;
         private Label label4;
+        private DataGridView dataGridView1;
     }
 }
