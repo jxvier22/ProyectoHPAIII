@@ -63,12 +63,13 @@
             // 
             label1.AutoSize = true;
             label1.Dock = DockStyle.Fill;
-            label1.Font = new Font("Poppins SemiBold", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Font = new Font("Mulish", 28.1999989F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(225, 89);
             label1.Name = "label1";
-            label1.Size = new Size(171, 82);
+            label1.Size = new Size(163, 64);
             label1.TabIndex = 3;
             label1.Text = "label1";
+            label1.Click += label1_Click;
             // 
             // Pantalla14
             // 
