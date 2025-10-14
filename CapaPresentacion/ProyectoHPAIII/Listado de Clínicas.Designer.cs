@@ -28,13 +28,24 @@
         /// </summary>
         private void InitializeComponent()
         {
+            panel1 = new Panel();
             SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ButtonFace;
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(800, 72);
+            panel1.TabIndex = 0;
             // 
             // Pantalla14
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel1);
             Name = "Pantalla14";
             Text = "Pantalla14";
             Load += Pantalla14_Load;
@@ -42,5 +53,7 @@
         }
 
         #endregion
+
+        private Panel panel1;
     }
 }
