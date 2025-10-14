@@ -34,6 +34,10 @@
             label1 = new Label();
             button7 = new Button();
             dataGridView1 = new DataGridView();
+            comboBox1 = new ComboBox();
+            label3 = new Label();
+            label2 = new Label();
+            textBox1 = new TextBox();
             panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
@@ -41,6 +45,10 @@
             // panel3
             // 
             panel3.BackColor = Color.White;
+            panel3.Controls.Add(comboBox1);
+            panel3.Controls.Add(label3);
+            panel3.Controls.Add(label2);
+            panel3.Controls.Add(textBox1);
             panel3.Controls.Add(dataGridView1);
             panel3.Controls.Add(button7);
             panel3.Controls.Add(label1);
@@ -94,6 +102,43 @@
             dataGridView1.Size = new Size(881, 459);
             dataGridView1.TabIndex = 26;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(656, 38);
+            comboBox1.Margin = new Padding(3, 2, 3, 2);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(110, 23);
+            comboBox1.TabIndex = 30;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(600, 38);
+            label3.Name = "label3";
+            label3.Size = new Size(48, 22);
+            label3.TabIndex = 29;
+            label3.Text = "Filtro";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(286, 39);
+            label2.Name = "label2";
+            label2.Size = new Size(62, 22);
+            label2.TabIndex = 28;
+            label2.Text = "Buscar";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(359, 39);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(180, 23);
+            textBox1.TabIndex = 27;
+            // 
             // Pantalla11
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -119,5 +164,9 @@
         private Button button7;
         private Label label1;
         private DataGridView dataGridView1;
+        private ComboBox comboBox1;
+        private Label label3;
+        private Label label2;
+        private TextBox textBox1;
     }
 }
