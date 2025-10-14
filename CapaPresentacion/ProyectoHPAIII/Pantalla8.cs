@@ -16,5 +16,10 @@ namespace CapaPresentación
         {
             InitializeComponent();
         }
+
+        private void Pantalla8_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
