@@ -207,7 +207,7 @@
             label2.Size = new Size(77, 27);
             label2.TabIndex = 5;
             label2.Text = "Buscar";
-            label2.Click += this.label2_Click;
+            label2.Click += label2_Click;
             // 
             // label3
             // 

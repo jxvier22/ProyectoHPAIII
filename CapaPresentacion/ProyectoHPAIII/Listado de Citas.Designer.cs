@@ -1,4 +1,5 @@
-﻿namespace CapaPresentación
+﻿
+namespace CapaPresentación
 {
     partial class Pantalla10
     {
@@ -297,6 +298,11 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
