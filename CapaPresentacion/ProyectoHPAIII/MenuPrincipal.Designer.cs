@@ -33,10 +33,10 @@
             botonMedicos = new Button();
             panel1 = new Panel();
             panel2 = new Panel();
-            botonPacientes = new Button();
-            botonClinicas = new Button();
-            botonAdministradores = new Button();
             botonTratamientos = new Button();
+            botonAdministradores = new Button();
+            botonClinicas = new Button();
+            botonPacientes = new Button();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -89,29 +89,19 @@
             panel2.Size = new Size(159, 618);
             panel2.TabIndex = 3;
             // 
-            // botonPacientes
+            // botonTratamientos
             // 
-            botonPacientes.BackColor = Color.White;
-            botonPacientes.FlatStyle = FlatStyle.Flat;
-            botonPacientes.Location = new Point(20, 149);
-            botonPacientes.Name = "botonPacientes";
-            botonPacientes.Padding = new Padding(10);
-            botonPacientes.Size = new Size(120, 43);
-            botonPacientes.TabIndex = 2;
-            botonPacientes.Text = "Pacientes";
-            botonPacientes.UseVisualStyleBackColor = false;
-            // 
-            // botonClinicas
-            // 
-            botonClinicas.BackColor = Color.White;
-            botonClinicas.FlatStyle = FlatStyle.Flat;
-            botonClinicas.Location = new Point(20, 210);
-            botonClinicas.Name = "botonClinicas";
-            botonClinicas.Padding = new Padding(10);
-            botonClinicas.Size = new Size(120, 43);
-            botonClinicas.TabIndex = 3;
-            botonClinicas.Text = "Clinicas";
-            botonClinicas.UseVisualStyleBackColor = false;
+            botonTratamientos.BackColor = Color.White;
+            botonTratamientos.BackgroundImageLayout = ImageLayout.None;
+            botonTratamientos.FlatStyle = FlatStyle.Flat;
+            botonTratamientos.ForeColor = Color.Black;
+            botonTratamientos.Location = new Point(20, 337);
+            botonTratamientos.Name = "botonTratamientos";
+            botonTratamientos.Padding = new Padding(1);
+            botonTratamientos.Size = new Size(120, 43);
+            botonTratamientos.TabIndex = 5;
+            botonTratamientos.Text = "Tratamientos";
+            botonTratamientos.UseVisualStyleBackColor = false;
             // 
             // botonAdministradores
             // 
@@ -125,19 +115,31 @@
             botonAdministradores.Text = "Administradores";
             botonAdministradores.UseVisualStyleBackColor = false;
             // 
-            // botonTratamientos
+            // botonClinicas
             // 
-            botonTratamientos.BackColor = Color.White;
-            botonTratamientos.FlatStyle = FlatStyle.Flat;
-            botonTratamientos.Location = new Point(20, 337);
-            botonTratamientos.Name = "botonTratamientos";
-            botonTratamientos.Padding = new Padding(1);
-            botonTratamientos.Size = new Size(120, 43);
-            botonTratamientos.TabIndex = 5;
-            botonTratamientos.Text = "Tratamientos";
-            botonTratamientos.UseVisualStyleBackColor = false;
+            botonClinicas.BackColor = Color.White;
+            botonClinicas.FlatStyle = FlatStyle.Flat;
+            botonClinicas.Location = new Point(20, 210);
+            botonClinicas.Name = "botonClinicas";
+            botonClinicas.Padding = new Padding(10);
+            botonClinicas.Size = new Size(120, 43);
+            botonClinicas.TabIndex = 3;
+            botonClinicas.Text = "Clinicas";
+            botonClinicas.UseVisualStyleBackColor = false;
             // 
-            // Login
+            // botonPacientes
+            // 
+            botonPacientes.BackColor = Color.White;
+            botonPacientes.FlatStyle = FlatStyle.Flat;
+            botonPacientes.Location = new Point(20, 149);
+            botonPacientes.Name = "botonPacientes";
+            botonPacientes.Padding = new Padding(10);
+            botonPacientes.Size = new Size(120, 43);
+            botonPacientes.TabIndex = 2;
+            botonPacientes.Text = "Pacientes";
+            botonPacientes.UseVisualStyleBackColor = false;
+            // 
+            // MenuPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -148,7 +150,7 @@
             ForeColor = Color.Black;
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 2, 3, 2);
-            Name = "Login";
+            Name = "MenuPrincipal";
             Padding = new Padding(1);
             Text = "Medicos";
             panel2.ResumeLayout(false);
