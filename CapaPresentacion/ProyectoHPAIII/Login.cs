@@ -25,9 +25,7 @@ namespace ProyectoHPAIII
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MenuPrincipla menu = new MenuPrincipla();
-            menu.Show();
-            this.Hide();
+
         }
     }
 }

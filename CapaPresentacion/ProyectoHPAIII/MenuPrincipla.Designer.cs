@@ -38,8 +38,8 @@
             botonClinicas = new Button();
             label1 = new Label();
             panel3 = new Panel();
-            panel4 = new Panel();
             label2 = new Label();
+            panel4 = new Panel();
             label3 = new Label();
             dataGridView1 = new DataGridView();
             dataGridView2 = new DataGridView();
@@ -84,7 +84,7 @@
             botonTratamientos.ForeColor = Color.Black;
             botonTratamientos.Location = new Point(41, 295);
             botonTratamientos.Name = "botonTratamientos";
-            botonTratamientos.Padding = new Padding(1, 1, 1, 1);
+            botonTratamientos.Padding = new Padding(1);
             botonTratamientos.Size = new Size(155, 43);
             botonTratamientos.TabIndex = 17;
             botonTratamientos.Text = "Tratamientos";
@@ -98,7 +98,7 @@
             botonMenu.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonMenu.Location = new Point(57, 70);
             botonMenu.Name = "botonMenu";
-            botonMenu.Padding = new Padding(10, 10, 10, 10);
+            botonMenu.Padding = new Padding(10);
             botonMenu.Size = new Size(120, 57);
             botonMenu.TabIndex = 12;
             botonMenu.Text = "Menú";
@@ -112,7 +112,7 @@
             botonMedicos.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonMedicos.Location = new Point(58, 115);
             botonMedicos.Name = "botonMedicos";
-            botonMedicos.Padding = new Padding(10, 10, 10, 10);
+            botonMedicos.Padding = new Padding(10);
             botonMedicos.Size = new Size(120, 54);
             botonMedicos.TabIndex = 13;
             botonMedicos.Text = "Medicos";
@@ -126,7 +126,7 @@
             botonPacientes.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonPacientes.Location = new Point(58, 162);
             botonPacientes.Name = "botonPacientes";
-            botonPacientes.Padding = new Padding(10, 10, 10, 10);
+            botonPacientes.Padding = new Padding(10);
             botonPacientes.Size = new Size(120, 54);
             botonPacientes.TabIndex = 14;
             botonPacientes.Text = "Pacientes";
@@ -141,7 +141,7 @@
             botonAdministradores.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonAdministradores.Location = new Point(28, 252);
             botonAdministradores.Name = "botonAdministradores";
-            botonAdministradores.Padding = new Padding(1, 1, 1, 1);
+            botonAdministradores.Padding = new Padding(1);
             botonAdministradores.Size = new Size(175, 43);
             botonAdministradores.TabIndex = 16;
             botonAdministradores.Text = "Administradores";
@@ -155,7 +155,7 @@
             botonClinicas.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonClinicas.Location = new Point(57, 207);
             botonClinicas.Name = "botonClinicas";
-            botonClinicas.Padding = new Padding(10, 10, 10, 10);
+            botonClinicas.Padding = new Padding(10);
             botonClinicas.Size = new Size(120, 53);
             botonClinicas.TabIndex = 15;
             botonClinicas.Text = "Clinicas";
@@ -179,14 +179,7 @@
             panel3.Name = "panel3";
             panel3.Size = new Size(338, 173);
             panel3.TabIndex = 3;
-            // 
-            // panel4
-            // 
-            panel4.Controls.Add(label3);
-            panel4.Location = new Point(785, 176);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(338, 173);
-            panel4.TabIndex = 4;
+            panel3.Paint += panel3_Paint;
             // 
             // label2
             // 
@@ -197,6 +190,14 @@
             label2.Size = new Size(138, 37);
             label2.TabIndex = 0;
             label2.Text = "Doctores";
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(label3);
+            panel4.Location = new Point(785, 176);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(338, 173);
+            panel4.TabIndex = 4;
             // 
             // label3
             // 
