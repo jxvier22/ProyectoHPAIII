@@ -150,7 +150,7 @@
             botonMenu.Margin = new Padding(3, 4, 3, 4);
             botonMenu.Name = "botonMenu";
             botonMenu.Padding = new Padding(11, 13, 11, 13);
-            botonMenu.Size = new Size(317, 64);
+            botonMenu.Size = new Size(320, 64);
             botonMenu.TabIndex = 12;
             botonMenu.Text = "Menú";
             botonMenu.UseVisualStyleBackColor = false;
