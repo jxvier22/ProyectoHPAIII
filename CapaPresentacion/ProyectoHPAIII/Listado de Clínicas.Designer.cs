@@ -213,12 +213,15 @@
             // 
             // button1
             // 
-            button1.Location = new Point(1032, 164);
+            button1.BackColor = Color.SteelBlue;
+            button1.FlatAppearance.BorderColor = Color.SteelBlue;
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(981, 164);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 8;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            button1.Text = "Agregar";
+            button1.UseVisualStyleBackColor = false;
             // 
             // Pantalla14
             // 
