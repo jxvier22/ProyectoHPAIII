@@ -38,6 +38,8 @@
             botonMenu = new Button();
             botonClinicas = new Button();
             botonPacientes = new Button();
+            textBox1 = new TextBox();
+            label2 = new Label();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -170,11 +172,30 @@
             botonPacientes.Text = "Pacientes";
             botonPacientes.UseVisualStyleBackColor = false;
             // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(347, 162);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(288, 27);
+            textBox1.TabIndex = 4;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(291, 165);
+            label2.Name = "label2";
+            label2.Size = new Size(50, 20);
+            label2.TabIndex = 5;
+            label2.Text = "label2";
+            // 
             // Pantalla14
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.Window;
             ClientSize = new Size(1280, 720);
+            Controls.Add(label2);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(panel3);
             Controls.Add(panel2);
@@ -202,5 +223,7 @@
         private Button botonMenu;
         private Button botonClinicas;
         private Button botonPacientes;
+        private TextBox textBox1;
+        private Label label2;
     }
 }
