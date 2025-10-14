@@ -31,5 +31,10 @@ namespace CapaPresentación
         {
 
         }
+
+        private void BotonMenu_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
