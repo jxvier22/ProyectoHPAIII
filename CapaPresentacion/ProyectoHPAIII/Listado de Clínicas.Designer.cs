@@ -101,11 +101,11 @@
             botonTratamientos.FlatStyle = FlatStyle.Flat;
             botonTratamientos.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             botonTratamientos.ForeColor = Color.Black;
-            botonTratamientos.Location = new Point(43, 400);
+            botonTratamientos.Location = new Point(0, 400);
             botonTratamientos.Margin = new Padding(3, 4, 3, 4);
             botonTratamientos.Name = "botonTratamientos";
             botonTratamientos.Padding = new Padding(1);
-            botonTratamientos.Size = new Size(274, 57);
+            botonTratamientos.Size = new Size(317, 57);
             botonTratamientos.TabIndex = 17;
             botonTratamientos.Text = "Tratamientos";
             botonTratamientos.UseVisualStyleBackColor = false;
@@ -116,11 +116,11 @@
             botonMedicos.FlatAppearance.BorderColor = Color.White;
             botonMedicos.FlatStyle = FlatStyle.Flat;
             botonMedicos.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonMedicos.Location = new Point(43, 138);
+            botonMedicos.Location = new Point(0, 138);
             botonMedicos.Margin = new Padding(3, 4, 3, 4);
             botonMedicos.Name = "botonMedicos";
             botonMedicos.Padding = new Padding(11, 13, 11, 13);
-            botonMedicos.Size = new Size(274, 57);
+            botonMedicos.Size = new Size(317, 57);
             botonMedicos.TabIndex = 13;
             botonMedicos.Text = "Medicos";
             botonMedicos.UseVisualStyleBackColor = false;
@@ -131,11 +131,11 @@
             botonAdministradores.FlatAppearance.BorderColor = Color.White;
             botonAdministradores.FlatStyle = FlatStyle.Flat;
             botonAdministradores.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonAdministradores.Location = new Point(43, 334);
+            botonAdministradores.Location = new Point(-8, 334);
             botonAdministradores.Margin = new Padding(3, 4, 3, 4);
             botonAdministradores.Name = "botonAdministradores";
             botonAdministradores.Padding = new Padding(1);
-            botonAdministradores.Size = new Size(274, 57);
+            botonAdministradores.Size = new Size(325, 57);
             botonAdministradores.TabIndex = 16;
             botonAdministradores.Text = "Administradores";
             botonAdministradores.UseVisualStyleBackColor = false;
@@ -146,26 +146,27 @@
             botonMenu.FlatAppearance.BorderColor = Color.White;
             botonMenu.FlatStyle = FlatStyle.Flat;
             botonMenu.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonMenu.Location = new Point(43, 67);
+            botonMenu.Location = new Point(0, 66);
             botonMenu.Margin = new Padding(3, 4, 3, 4);
             botonMenu.Name = "botonMenu";
             botonMenu.Padding = new Padding(11, 13, 11, 13);
-            botonMenu.Size = new Size(274, 63);
+            botonMenu.Size = new Size(317, 64);
             botonMenu.TabIndex = 12;
             botonMenu.Text = "Menú";
             botonMenu.UseVisualStyleBackColor = false;
             // 
             // botonClinicas
             // 
-            botonClinicas.BackColor = Color.White;
+            botonClinicas.BackColor = Color.SteelBlue;
             botonClinicas.FlatAppearance.BorderColor = Color.White;
             botonClinicas.FlatStyle = FlatStyle.Flat;
             botonClinicas.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonClinicas.Location = new Point(43, 269);
+            botonClinicas.ForeColor = SystemColors.ButtonHighlight;
+            botonClinicas.Location = new Point(0, 269);
             botonClinicas.Margin = new Padding(3, 4, 3, 4);
             botonClinicas.Name = "botonClinicas";
             botonClinicas.Padding = new Padding(11, 13, 11, 13);
-            botonClinicas.Size = new Size(274, 57);
+            botonClinicas.Size = new Size(317, 57);
             botonClinicas.TabIndex = 15;
             botonClinicas.Text = "Clinicas";
             botonClinicas.UseVisualStyleBackColor = false;
@@ -176,18 +177,18 @@
             botonPacientes.FlatAppearance.BorderColor = Color.White;
             botonPacientes.FlatStyle = FlatStyle.Flat;
             botonPacientes.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonPacientes.Location = new Point(43, 204);
+            botonPacientes.Location = new Point(0, 204);
             botonPacientes.Margin = new Padding(3, 4, 3, 4);
             botonPacientes.Name = "botonPacientes";
             botonPacientes.Padding = new Padding(11, 13, 11, 13);
-            botonPacientes.Size = new Size(274, 57);
+            botonPacientes.Size = new Size(317, 57);
             botonPacientes.TabIndex = 14;
             botonPacientes.Text = "Pacientes";
             botonPacientes.UseVisualStyleBackColor = false;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(447, 168);
+            textBox1.Location = new Point(447, 176);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(205, 27);
             textBox1.TabIndex = 4;
@@ -197,7 +198,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(364, 166);
+            label2.Location = new Point(364, 176);
             label2.Name = "label2";
             label2.Size = new Size(77, 27);
             label2.TabIndex = 5;
@@ -208,7 +209,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(671, 168);
+            label3.Location = new Point(671, 178);
             label3.Name = "label3";
             label3.Size = new Size(58, 27);
             label3.TabIndex = 6;
@@ -218,7 +219,7 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(735, 168);
+            comboBox1.Location = new Point(735, 178);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(125, 28);
             comboBox1.TabIndex = 7;
@@ -231,7 +232,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(1124, 159);
+            button1.Location = new Point(1124, 168);
             button1.Name = "button1";
             button1.Size = new Size(144, 40);
             button1.TabIndex = 8;
@@ -241,7 +242,7 @@
             // comboBox2
             // 
             comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(974, 167);
+            comboBox2.Location = new Point(974, 180);
             comboBox2.Name = "comboBox2";
             comboBox2.Size = new Size(125, 28);
             comboBox2.TabIndex = 10;
@@ -251,7 +252,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(892, 166);
+            label4.Location = new Point(892, 181);
             label4.Name = "label4";
             label4.Size = new Size(76, 27);
             label4.TabIndex = 9;
