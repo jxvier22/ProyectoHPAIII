@@ -51,5 +51,10 @@ namespace CapaPresentación
         {
 
         }
+
+        private void botonTratamientos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
