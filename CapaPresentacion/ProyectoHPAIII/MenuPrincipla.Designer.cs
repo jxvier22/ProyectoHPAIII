@@ -1,6 +1,6 @@
 ﻿namespace CapaPresentación
 {
-    partial class Pantalla6
+    partial class MenuPrincipla
     {
         /// <summary>
         /// Required designer variable.
@@ -44,7 +44,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1264, 100);
+            panel1.Size = new Size(1280, 100);
             panel1.TabIndex = 0;
             // 
             // panel2
@@ -58,7 +58,7 @@
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 100);
             panel2.Name = "panel2";
-            panel2.Size = new Size(200, 581);
+            panel2.Size = new Size(200, 620);
             panel2.TabIndex = 1;
             // 
             // botonTratamientos
@@ -68,7 +68,7 @@
             botonTratamientos.FlatAppearance.BorderColor = Color.White;
             botonTratamientos.FlatStyle = FlatStyle.Flat;
             botonTratamientos.ForeColor = Color.Black;
-            botonTratamientos.Location = new Point(44, 292);
+            botonTratamientos.Location = new Point(39, 314);
             botonTratamientos.Name = "botonTratamientos";
             botonTratamientos.Padding = new Padding(1);
             botonTratamientos.Size = new Size(120, 43);
@@ -81,7 +81,7 @@
             botonMedicos.BackColor = Color.White;
             botonMedicos.FlatAppearance.BorderColor = Color.White;
             botonMedicos.FlatStyle = FlatStyle.Flat;
-            botonMedicos.Location = new Point(44, 96);
+            botonMedicos.Location = new Point(39, 118);
             botonMedicos.Name = "botonMedicos";
             botonMedicos.Padding = new Padding(10);
             botonMedicos.Size = new Size(120, 43);
@@ -94,7 +94,7 @@
             botonAdministradores.BackColor = Color.White;
             botonAdministradores.FlatAppearance.BorderColor = Color.White;
             botonAdministradores.FlatStyle = FlatStyle.Flat;
-            botonAdministradores.Location = new Point(44, 243);
+            botonAdministradores.Location = new Point(39, 265);
             botonAdministradores.Name = "botonAdministradores";
             botonAdministradores.Padding = new Padding(1);
             botonAdministradores.Size = new Size(120, 43);
@@ -107,7 +107,7 @@
             botonMenu.BackColor = Color.White;
             botonMenu.FlatAppearance.BorderColor = Color.White;
             botonMenu.FlatStyle = FlatStyle.Flat;
-            botonMenu.Location = new Point(44, 47);
+            botonMenu.Location = new Point(39, 69);
             botonMenu.Name = "botonMenu";
             botonMenu.Padding = new Padding(10);
             botonMenu.Size = new Size(120, 43);
@@ -120,7 +120,7 @@
             botonClinicas.BackColor = Color.White;
             botonClinicas.FlatAppearance.BorderColor = Color.White;
             botonClinicas.FlatStyle = FlatStyle.Flat;
-            botonClinicas.Location = new Point(44, 194);
+            botonClinicas.Location = new Point(39, 216);
             botonClinicas.Name = "botonClinicas";
             botonClinicas.Padding = new Padding(10);
             botonClinicas.Size = new Size(120, 43);
@@ -133,7 +133,7 @@
             botonPacientes.BackColor = Color.White;
             botonPacientes.FlatAppearance.BorderColor = Color.White;
             botonPacientes.FlatStyle = FlatStyle.Flat;
-            botonPacientes.Location = new Point(44, 145);
+            botonPacientes.Location = new Point(39, 167);
             botonPacientes.Name = "botonPacientes";
             botonPacientes.Padding = new Padding(10);
             botonPacientes.Size = new Size(120, 43);
@@ -141,18 +141,17 @@
             botonPacientes.Text = "Pacientes";
             botonPacientes.UseVisualStyleBackColor = false;
             // 
-            // Pantalla6
+            // MenuPrincipla
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(1264, 681);
+            ClientSize = new Size(1280, 720);
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "Pantalla6";
-            Text = "Pantalla6";
-            Load += Pantalla6_Load;
+            Name = "MenuPrincipla";
+            Text = "Form1";
             panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
