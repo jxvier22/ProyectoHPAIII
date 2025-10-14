@@ -31,13 +31,13 @@ namespace CapaPresentación
         {
             panel1 = new Panel();
             panel2 = new Panel();
-            botonTratamientos = new Button();
-            botonMedicos = new Button();
-            botonAdministradores = new Button();
-            botonMenu = new Button();
-            botonClinicas = new Button();
-            botonPacientes = new Button();
             button1 = new Button();
+            botonTratamientos = new Button();
+            botonMenu = new Button();
+            botonMedicos = new Button();
+            botonPacientes = new Button();
+            botonAdministradores = new Button();
+            botonClinicas = new Button();
             label1 = new Label();
             comboBox2 = new ComboBox();
             label4 = new Label();
@@ -76,6 +76,22 @@ namespace CapaPresentación
             panel2.Size = new Size(325, 581);
             panel2.TabIndex = 1;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.SteelBlue;
+            button1.FlatAppearance.BorderColor = Color.White;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(0, 312);
+            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Name = "button1";
+            button1.Padding = new Padding(1);
+            button1.Size = new Size(322, 57);
+            button1.TabIndex = 24;
+            button1.Text = "Citas";
+            button1.UseVisualStyleBackColor = false;
+            // 
             // botonTratamientos
             // 
             botonTratamientos.BackColor = Color.White;
@@ -93,36 +109,6 @@ namespace CapaPresentación
             botonTratamientos.Text = "Tratamientos";
             botonTratamientos.UseVisualStyleBackColor = false;
             // 
-            // botonMedicos
-            // 
-            botonMedicos.BackColor = Color.White;
-            botonMedicos.FlatAppearance.BorderColor = Color.White;
-            botonMedicos.FlatStyle = FlatStyle.Flat;
-            botonMedicos.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonMedicos.Location = new Point(0, 107);
-            botonMedicos.Margin = new Padding(3, 4, 3, 4);
-            botonMedicos.Name = "botonMedicos";
-            botonMedicos.Padding = new Padding(11, 13, 11, 13);
-            botonMedicos.Size = new Size(317, 57);
-            botonMedicos.TabIndex = 19;
-            botonMedicos.Text = "Medicos";
-            botonMedicos.UseVisualStyleBackColor = false;
-            // 
-            // botonAdministradores
-            // 
-            botonAdministradores.BackColor = Color.White;
-            botonAdministradores.FlatAppearance.BorderColor = Color.White;
-            botonAdministradores.FlatStyle = FlatStyle.Flat;
-            botonAdministradores.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonAdministradores.Location = new Point(-8, 386);
-            botonAdministradores.Margin = new Padding(3, 4, 3, 4);
-            botonAdministradores.Name = "botonAdministradores";
-            botonAdministradores.Padding = new Padding(1);
-            botonAdministradores.Size = new Size(325, 57);
-            botonAdministradores.TabIndex = 22;
-            botonAdministradores.Text = "Administradores";
-            botonAdministradores.UseVisualStyleBackColor = false;
-            // 
             // botonMenu
             // 
             botonMenu.BackColor = Color.White;
@@ -138,21 +124,20 @@ namespace CapaPresentación
             botonMenu.Text = "Menú";
             botonMenu.UseVisualStyleBackColor = false;
             // 
-            // botonClinicas
+            // botonMedicos
             // 
-            botonClinicas.BackColor = SystemColors.ButtonHighlight;
-            botonClinicas.FlatAppearance.BorderColor = Color.White;
-            botonClinicas.FlatStyle = FlatStyle.Flat;
-            botonClinicas.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            botonClinicas.ForeColor = Color.Black;
-            botonClinicas.Location = new Point(0, 238);
-            botonClinicas.Margin = new Padding(3, 4, 3, 4);
-            botonClinicas.Name = "botonClinicas";
-            botonClinicas.Padding = new Padding(11, 13, 11, 13);
-            botonClinicas.Size = new Size(322, 57);
-            botonClinicas.TabIndex = 21;
-            botonClinicas.Text = "Clinicas";
-            botonClinicas.UseVisualStyleBackColor = false;
+            botonMedicos.BackColor = Color.White;
+            botonMedicos.FlatAppearance.BorderColor = Color.White;
+            botonMedicos.FlatStyle = FlatStyle.Flat;
+            botonMedicos.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            botonMedicos.Location = new Point(0, 107);
+            botonMedicos.Margin = new Padding(3, 4, 3, 4);
+            botonMedicos.Name = "botonMedicos";
+            botonMedicos.Padding = new Padding(11, 13, 11, 13);
+            botonMedicos.Size = new Size(317, 57);
+            botonMedicos.TabIndex = 19;
+            botonMedicos.Text = "Medicos";
+            botonMedicos.UseVisualStyleBackColor = false;
             // 
             // botonPacientes
             // 
@@ -169,21 +154,36 @@ namespace CapaPresentación
             botonPacientes.Text = "Pacientes";
             botonPacientes.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // botonAdministradores
             // 
-            button1.BackColor = Color.SteelBlue;
-            button1.FlatAppearance.BorderColor = Color.White;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(0, 312);
-            button1.Margin = new Padding(3, 4, 3, 4);
-            button1.Name = "button1";
-            button1.Padding = new Padding(1);
-            button1.Size = new Size(322, 57);
-            button1.TabIndex = 24;
-            button1.Text = "Citas";
-            button1.UseVisualStyleBackColor = false;
+            botonAdministradores.BackColor = Color.White;
+            botonAdministradores.FlatAppearance.BorderColor = Color.White;
+            botonAdministradores.FlatStyle = FlatStyle.Flat;
+            botonAdministradores.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            botonAdministradores.Location = new Point(-8, 386);
+            botonAdministradores.Margin = new Padding(3, 4, 3, 4);
+            botonAdministradores.Name = "botonAdministradores";
+            botonAdministradores.Padding = new Padding(1);
+            botonAdministradores.Size = new Size(325, 57);
+            botonAdministradores.TabIndex = 22;
+            botonAdministradores.Text = "Administradores";
+            botonAdministradores.UseVisualStyleBackColor = false;
+            // 
+            // botonClinicas
+            // 
+            botonClinicas.BackColor = SystemColors.ButtonHighlight;
+            botonClinicas.FlatAppearance.BorderColor = Color.White;
+            botonClinicas.FlatStyle = FlatStyle.Flat;
+            botonClinicas.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            botonClinicas.ForeColor = Color.Black;
+            botonClinicas.Location = new Point(0, 238);
+            botonClinicas.Margin = new Padding(3, 4, 3, 4);
+            botonClinicas.Name = "botonClinicas";
+            botonClinicas.Padding = new Padding(11, 13, 11, 13);
+            botonClinicas.Size = new Size(322, 57);
+            botonClinicas.TabIndex = 21;
+            botonClinicas.Text = "Clinicas";
+            botonClinicas.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -214,7 +214,7 @@ namespace CapaPresentación
             label4.Size = new Size(76, 27);
             label4.TabIndex = 11;
             label4.Text = "Estado";
-            label4.Click += this.label4_Click;
+            label4.Click += label4_Click;
             // 
             // label2
             // 
