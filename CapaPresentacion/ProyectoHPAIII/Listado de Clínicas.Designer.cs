@@ -43,6 +43,8 @@
             label3 = new Label();
             comboBox1 = new ComboBox();
             button1 = new Button();
+            comboBox2 = new ComboBox();
+            label4 = new Label();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -216,20 +218,43 @@
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(735, 168);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(205, 28);
+            comboBox1.Size = new Size(125, 28);
             comboBox1.TabIndex = 7;
             // 
             // button1
             // 
             button1.BackColor = Color.SteelBlue;
             button1.FlatAppearance.BorderColor = Color.SteelBlue;
-            button1.ForeColor = SystemColors.ButtonHighlight;
-            button1.Location = new Point(981, 164);
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(1124, 159);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(144, 40);
             button1.TabIndex = 8;
             button1.Text = "Agregar";
             button1.UseVisualStyleBackColor = false;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(974, 167);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(125, 28);
+            comboBox2.TabIndex = 10;
+            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label4.Location = new Point(892, 166);
+            label4.Name = "label4";
+            label4.Size = new Size(76, 27);
+            label4.TabIndex = 9;
+            label4.Text = "Estado";
+            label4.Click += this.label4_Click;
             // 
             // Pantalla14
             // 
@@ -237,6 +262,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             ClientSize = new Size(1280, 720);
+            Controls.Add(comboBox2);
+            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(comboBox1);
             Controls.Add(label3);
@@ -274,5 +301,7 @@
         private Label label3;
         private ComboBox comboBox1;
         private Button button1;
+        private ComboBox comboBox2;
+        private Label label4;
     }
 }
