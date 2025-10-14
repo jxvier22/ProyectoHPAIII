@@ -43,8 +43,6 @@
             label3 = new Label();
             comboBox1 = new ComboBox();
             button1 = new Button();
-            comboBox2 = new ComboBox();
-            label4 = new Label();
             dataGridView1 = new DataGridView();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -88,9 +86,9 @@
             label1.Font = new Font("Mulish", 23.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(320, 89);
             label1.Name = "label1";
-            label1.Size = new Size(121, 55);
+            label1.Size = new Size(150, 55);
             label1.TabIndex = 3;
-            label1.Text = "Citas";
+            label1.Text = "Clínica";
             label1.Click += label1_Click;
             // 
             // botonTratamientos
@@ -109,6 +107,7 @@
             botonTratamientos.TabIndex = 17;
             botonTratamientos.Text = "Tratamientos";
             botonTratamientos.UseVisualStyleBackColor = false;
+            botonTratamientos.Click += botonTratamientos_Click;
             // 
             // botonMedicos
             // 
@@ -232,32 +231,12 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.ForeColor = Color.White;
-            button1.Location = new Point(1124, 168);
+            button1.Location = new Point(1090, 171);
             button1.Name = "button1";
             button1.Size = new Size(144, 40);
             button1.TabIndex = 8;
             button1.Text = "Agregar";
             button1.UseVisualStyleBackColor = false;
-            // 
-            // comboBox2
-            // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(974, 180);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(125, 28);
-            comboBox2.TabIndex = 10;
-            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Mulish", 11.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(892, 181);
-            label4.Name = "label4";
-            label4.Size = new Size(76, 27);
-            label4.TabIndex = 9;
-            label4.Text = "Estado";
-            label4.Click += this.label4_Click;
             // 
             // dataGridView1
             // 
@@ -275,8 +254,6 @@
             BackColor = SystemColors.Window;
             ClientSize = new Size(1280, 720);
             Controls.Add(dataGridView1);
-            Controls.Add(comboBox2);
-            Controls.Add(label4);
             Controls.Add(button1);
             Controls.Add(comboBox1);
             Controls.Add(label3);
@@ -315,8 +292,6 @@
         private Label label3;
         private ComboBox comboBox1;
         private Button button1;
-        private ComboBox comboBox2;
-        private Label label4;
         private DataGridView dataGridView1;
     }
 }
