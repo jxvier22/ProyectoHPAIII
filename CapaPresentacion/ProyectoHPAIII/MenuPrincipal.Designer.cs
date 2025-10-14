@@ -43,6 +43,7 @@
             // botonMenu
             // 
             botonMenu.BackColor = Color.White;
+            botonMenu.FlatAppearance.BorderColor = Color.White;
             botonMenu.FlatStyle = FlatStyle.Flat;
             botonMenu.Location = new Point(20, 29);
             botonMenu.Name = "botonMenu";
@@ -56,6 +57,7 @@
             // botonMedicos
             // 
             botonMedicos.BackColor = Color.White;
+            botonMedicos.FlatAppearance.BorderColor = Color.White;
             botonMedicos.FlatStyle = FlatStyle.Flat;
             botonMedicos.Location = new Point(20, 89);
             botonMedicos.Name = "botonMedicos";
@@ -93,6 +95,7 @@
             // 
             botonTratamientos.BackColor = Color.White;
             botonTratamientos.BackgroundImageLayout = ImageLayout.None;
+            botonTratamientos.FlatAppearance.BorderColor = Color.White;
             botonTratamientos.FlatStyle = FlatStyle.Flat;
             botonTratamientos.ForeColor = Color.Black;
             botonTratamientos.Location = new Point(20, 337);
@@ -106,6 +109,7 @@
             // botonAdministradores
             // 
             botonAdministradores.BackColor = Color.White;
+            botonAdministradores.FlatAppearance.BorderColor = Color.White;
             botonAdministradores.FlatStyle = FlatStyle.Flat;
             botonAdministradores.Location = new Point(20, 275);
             botonAdministradores.Name = "botonAdministradores";
@@ -118,6 +122,7 @@
             // botonClinicas
             // 
             botonClinicas.BackColor = Color.White;
+            botonClinicas.FlatAppearance.BorderColor = Color.White;
             botonClinicas.FlatStyle = FlatStyle.Flat;
             botonClinicas.Location = new Point(20, 210);
             botonClinicas.Name = "botonClinicas";
@@ -130,6 +135,7 @@
             // botonPacientes
             // 
             botonPacientes.BackColor = Color.White;
+            botonPacientes.FlatAppearance.BorderColor = Color.White;
             botonPacientes.FlatStyle = FlatStyle.Flat;
             botonPacientes.Location = new Point(20, 149);
             botonPacientes.Name = "botonPacientes";
@@ -152,7 +158,7 @@
             Margin = new Padding(3, 2, 3, 2);
             Name = "MenuPrincipal";
             Padding = new Padding(1);
-            Text = "Medicos";
+            Text = "Tratamientos";
             panel2.ResumeLayout(false);
             ResumeLayout(false);
         }
