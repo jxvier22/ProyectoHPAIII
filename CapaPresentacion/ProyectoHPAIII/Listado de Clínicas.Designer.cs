@@ -32,6 +32,18 @@
             panel2 = new Panel();
             panel3 = new Panel();
             label1 = new Label();
+            botonTratamientos = new Button();
+            botonMedicos = new Button();
+            botonAdministradores = new Button();
+            botonMenu = new Button();
+            botonClinicas = new Button();
+            botonPacientes = new Button();
+            textBox1 = new TextBox();
+            label2 = new Label();
+            label3 = new Label();
+            comboBox1 = new ComboBox();
+            button1 = new Button();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -40,23 +52,29 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1082, 89);
+            panel1.Size = new Size(1280, 89);
             panel1.TabIndex = 0;
             // 
             // panel2
             // 
+            panel2.Controls.Add(botonTratamientos);
+            panel2.Controls.Add(botonMedicos);
+            panel2.Controls.Add(botonAdministradores);
+            panel2.Controls.Add(botonMenu);
+            panel2.Controls.Add(botonClinicas);
+            panel2.Controls.Add(botonPacientes);
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 89);
             panel2.Name = "panel2";
-            panel2.Size = new Size(225, 504);
+            panel2.Size = new Size(225, 631);
             panel2.TabIndex = 1;
             // 
             // panel3
             // 
             panel3.Dock = DockStyle.Bottom;
-            panel3.Location = new Point(225, 553);
+            panel3.Location = new Point(225, 680);
             panel3.Name = "panel3";
-            panel3.Size = new Size(857, 40);
+            panel3.Size = new Size(1055, 40);
             panel3.TabIndex = 2;
             // 
             // label1
@@ -71,11 +89,151 @@
             label1.Text = "Citas";
             label1.Click += label1_Click;
             // 
+            // botonTratamientos
+            // 
+            botonTratamientos.BackColor = Color.White;
+            botonTratamientos.BackgroundImageLayout = ImageLayout.None;
+            botonTratamientos.FlatAppearance.BorderColor = Color.White;
+            botonTratamientos.FlatStyle = FlatStyle.Flat;
+            botonTratamientos.ForeColor = Color.Black;
+            botonTratamientos.Location = new Point(43, 400);
+            botonTratamientos.Margin = new Padding(3, 4, 3, 4);
+            botonTratamientos.Name = "botonTratamientos";
+            botonTratamientos.Padding = new Padding(1);
+            botonTratamientos.Size = new Size(137, 57);
+            botonTratamientos.TabIndex = 17;
+            botonTratamientos.Text = "Tratamientos";
+            botonTratamientos.UseVisualStyleBackColor = false;
+            // 
+            // botonMedicos
+            // 
+            botonMedicos.BackColor = Color.White;
+            botonMedicos.FlatAppearance.BorderColor = Color.White;
+            botonMedicos.FlatStyle = FlatStyle.Flat;
+            botonMedicos.Location = new Point(43, 138);
+            botonMedicos.Margin = new Padding(3, 4, 3, 4);
+            botonMedicos.Name = "botonMedicos";
+            botonMedicos.Padding = new Padding(11, 13, 11, 13);
+            botonMedicos.Size = new Size(137, 57);
+            botonMedicos.TabIndex = 13;
+            botonMedicos.Text = "Medicos";
+            botonMedicos.UseVisualStyleBackColor = false;
+            // 
+            // botonAdministradores
+            // 
+            botonAdministradores.BackColor = Color.White;
+            botonAdministradores.FlatAppearance.BorderColor = Color.White;
+            botonAdministradores.FlatStyle = FlatStyle.Flat;
+            botonAdministradores.Location = new Point(43, 334);
+            botonAdministradores.Margin = new Padding(3, 4, 3, 4);
+            botonAdministradores.Name = "botonAdministradores";
+            botonAdministradores.Padding = new Padding(1);
+            botonAdministradores.Size = new Size(137, 57);
+            botonAdministradores.TabIndex = 16;
+            botonAdministradores.Text = "Administradores";
+            botonAdministradores.UseVisualStyleBackColor = false;
+            // 
+            // botonMenu
+            // 
+            botonMenu.BackColor = Color.White;
+            botonMenu.FlatAppearance.BorderColor = Color.White;
+            botonMenu.FlatStyle = FlatStyle.Flat;
+            botonMenu.Location = new Point(43, 73);
+            botonMenu.Margin = new Padding(3, 4, 3, 4);
+            botonMenu.Name = "botonMenu";
+            botonMenu.Padding = new Padding(11, 13, 11, 13);
+            botonMenu.Size = new Size(137, 57);
+            botonMenu.TabIndex = 12;
+            botonMenu.Text = "Menú";
+            botonMenu.UseVisualStyleBackColor = false;
+            // 
+            // botonClinicas
+            // 
+            botonClinicas.BackColor = Color.White;
+            botonClinicas.FlatAppearance.BorderColor = Color.White;
+            botonClinicas.FlatStyle = FlatStyle.Flat;
+            botonClinicas.Location = new Point(43, 269);
+            botonClinicas.Margin = new Padding(3, 4, 3, 4);
+            botonClinicas.Name = "botonClinicas";
+            botonClinicas.Padding = new Padding(11, 13, 11, 13);
+            botonClinicas.Size = new Size(137, 57);
+            botonClinicas.TabIndex = 15;
+            botonClinicas.Text = "Clinicas";
+            botonClinicas.UseVisualStyleBackColor = false;
+            // 
+            // botonPacientes
+            // 
+            botonPacientes.BackColor = Color.White;
+            botonPacientes.FlatAppearance.BorderColor = Color.White;
+            botonPacientes.FlatStyle = FlatStyle.Flat;
+            botonPacientes.Location = new Point(43, 204);
+            botonPacientes.Margin = new Padding(3, 4, 3, 4);
+            botonPacientes.Name = "botonPacientes";
+            botonPacientes.Padding = new Padding(11, 13, 11, 13);
+            botonPacientes.Size = new Size(137, 57);
+            botonPacientes.TabIndex = 14;
+            botonPacientes.Text = "Pacientes";
+            botonPacientes.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(326, 162);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(205, 27);
+            textBox1.TabIndex = 4;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Mulish", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(264, 165);
+            label2.Name = "label2";
+            label2.Size = new Size(56, 20);
+            label2.TabIndex = 5;
+            label2.Text = "Buscar";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Mulish", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(594, 165);
+            label3.Name = "label3";
+            label3.Size = new Size(44, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Filtro";
+            label3.Click += label3_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(644, 165);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(205, 28);
+            comboBox1.TabIndex = 7;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.SteelBlue;
+            button1.FlatAppearance.BorderColor = Color.SteelBlue;
+            button1.ForeColor = SystemColors.ButtonHighlight;
+            button1.Location = new Point(981, 164);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 8;
+            button1.Text = "Agregar";
+            button1.UseVisualStyleBackColor = false;
+            // 
             // Pantalla14
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1082, 593);
+            BackColor = SystemColors.Window;
+            ClientSize = new Size(1280, 720);
+            Controls.Add(button1);
+            Controls.Add(comboBox1);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Controls.Add(panel3);
             Controls.Add(panel2);
@@ -86,6 +244,7 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pantalla14";
             Load += Pantalla14_Load;
+            panel2.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -96,5 +255,16 @@
         private Panel panel2;
         private Panel panel3;
         private Label label1;
+        private Button botonTratamientos;
+        private Button botonMedicos;
+        private Button botonAdministradores;
+        private Button botonMenu;
+        private Button botonClinicas;
+        private Button botonPacientes;
+        private TextBox textBox1;
+        private Label label2;
+        private Label label3;
+        private ComboBox comboBox1;
+        private Button button1;
     }
 }

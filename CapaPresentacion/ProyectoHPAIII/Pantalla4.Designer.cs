@@ -68,7 +68,7 @@
             botonTratamientos.FlatAppearance.BorderColor = Color.White;
             botonTratamientos.FlatStyle = FlatStyle.Flat;
             botonTratamientos.ForeColor = Color.Black;
-            botonTratamientos.Location = new Point(43, 364);
+            botonTratamientos.Location = new Point(43, 312);
             botonTratamientos.Name = "botonTratamientos";
             botonTratamientos.Padding = new Padding(1);
             botonTratamientos.Size = new Size(120, 43);
@@ -94,7 +94,7 @@
             botonAdministradores.BackColor = Color.White;
             botonAdministradores.FlatAppearance.BorderColor = Color.White;
             botonAdministradores.FlatStyle = FlatStyle.Flat;
-            botonAdministradores.Location = new Point(43, 302);
+            botonAdministradores.Location = new Point(43, 263);
             botonAdministradores.Name = "botonAdministradores";
             botonAdministradores.Padding = new Padding(1);
             botonAdministradores.Size = new Size(120, 43);
@@ -107,7 +107,7 @@
             botonMenu.BackColor = Color.White;
             botonMenu.FlatAppearance.BorderColor = Color.White;
             botonMenu.FlatStyle = FlatStyle.Flat;
-            botonMenu.Location = new Point(43, 56);
+            botonMenu.Location = new Point(43, 67);
             botonMenu.Name = "botonMenu";
             botonMenu.Padding = new Padding(10);
             botonMenu.Size = new Size(120, 43);
@@ -120,7 +120,7 @@
             botonClinicas.BackColor = Color.White;
             botonClinicas.FlatAppearance.BorderColor = Color.White;
             botonClinicas.FlatStyle = FlatStyle.Flat;
-            botonClinicas.Location = new Point(43, 237);
+            botonClinicas.Location = new Point(43, 214);
             botonClinicas.Name = "botonClinicas";
             botonClinicas.Padding = new Padding(10);
             botonClinicas.Size = new Size(120, 43);
@@ -133,7 +133,7 @@
             botonPacientes.BackColor = Color.White;
             botonPacientes.FlatAppearance.BorderColor = Color.White;
             botonPacientes.FlatStyle = FlatStyle.Flat;
-            botonPacientes.Location = new Point(43, 176);
+            botonPacientes.Location = new Point(43, 165);
             botonPacientes.Name = "botonPacientes";
             botonPacientes.Padding = new Padding(10);
             botonPacientes.Size = new Size(120, 43);
