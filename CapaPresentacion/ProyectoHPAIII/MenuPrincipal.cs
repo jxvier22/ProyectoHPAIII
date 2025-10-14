@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ProyectoHPAIII
+namespace CapaPresentación
 {
-    public partial class Pantalla2 : Form
+    public partial class MenuPrincipal : Form
     {
-        public Pantalla2()
+        public MenuPrincipal()
         {
             InitializeComponent();
         }
