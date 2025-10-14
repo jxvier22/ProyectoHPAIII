@@ -249,6 +249,7 @@
             Controls.Add(textBox1);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Pantalla12";
             Text = "Pantalla12";
             panel2.ResumeLayout(false);

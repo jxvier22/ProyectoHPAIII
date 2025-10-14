@@ -290,6 +290,7 @@
             Controls.Add(label1);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
             Name = "Pantalla10";
             Text = "Pantalla10";
             panel2.ResumeLayout(false);
