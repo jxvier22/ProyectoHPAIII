@@ -2,6 +2,8 @@
 {
     partial class Pantalla14
     {
+        private const string labelBuscar = "Buscar";
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -206,7 +208,7 @@
             label2.Name = "label2";
             label2.Size = new Size(77, 27);
             label2.TabIndex = 5;
-            label2.Text = "Buscar";
+            label2.Text = labelBuscar;
             label2.Click += label2_Click;
             // 
             // label3
@@ -299,11 +301,9 @@
         private Button button1;
         private DataGridView dataGridView1;
 
-        // In ProyectoHPAIII\Listado de Clínicas.cs (your code-behind file for Pantalla14)
         private void label2_Click(object sender, EventArgs e)
         {
-            // Optional: Add logic here if you want something to happen when label2 is clicked.
-            // Example: MessageBox.Show("Buscar label clicked!");
+            // You can add your desired logic here, or leave it empty if not needed.
         }
     }
 }
