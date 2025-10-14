@@ -40,6 +40,9 @@
             botonPacientes = new Button();
             textBox1 = new TextBox();
             label2 = new Label();
+            label3 = new Label();
+            comboBox1 = new ComboBox();
+            button1 = new Button();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -174,19 +177,48 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(347, 162);
+            textBox1.Location = new Point(326, 162);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(288, 27);
+            textBox1.Size = new Size(205, 27);
             textBox1.TabIndex = 4;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(291, 165);
+            label2.Font = new Font("Mulish", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Location = new Point(264, 165);
             label2.Name = "label2";
-            label2.Size = new Size(50, 20);
+            label2.Size = new Size(56, 20);
             label2.TabIndex = 5;
-            label2.Text = "label2";
+            label2.Text = "Buscar";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Mulish", 8.999999F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label3.Location = new Point(594, 165);
+            label3.Name = "label3";
+            label3.Size = new Size(44, 20);
+            label3.TabIndex = 6;
+            label3.Text = "Filtro";
+            label3.Click += label3_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(644, 165);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(205, 28);
+            comboBox1.TabIndex = 7;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(1032, 164);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 8;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Pantalla14
             // 
@@ -194,6 +226,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             ClientSize = new Size(1280, 720);
+            Controls.Add(button1);
+            Controls.Add(comboBox1);
+            Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(label1);
@@ -225,5 +260,8 @@
         private Button botonPacientes;
         private TextBox textBox1;
         private Label label2;
+        private Label label3;
+        private ComboBox comboBox1;
+        private Button button1;
     }
 }
