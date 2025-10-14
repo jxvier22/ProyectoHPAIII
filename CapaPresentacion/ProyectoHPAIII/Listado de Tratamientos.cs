@@ -16,5 +16,10 @@ namespace CapaPresentación
         {
             InitializeComponent();
         }
+
+        private void botonAdministradores_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
