@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaPresentación;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,18 @@ namespace ProyectoHPAIII
         public Pantalla2()
         {
             InitializeComponent();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MenuPrincipla menu = new MenuPrincipla();
+            menu.Show();
+            this.Hide();
         }
     }
 }
