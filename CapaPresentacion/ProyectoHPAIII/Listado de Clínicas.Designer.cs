@@ -299,10 +299,11 @@
         private Button button1;
         private DataGridView dataGridView1;
 
-        // Add this method to your Pantalla14 class (usually in Listado de Clínicas.cs, not the Designer file)
+        // In ProyectoHPAIII\Listado de Clínicas.cs (your code-behind file for Pantalla14)
         private void label2_Click(object sender, EventArgs e)
         {
-            // You can add any desired logic here, or leave it empty if not needed
+            // Optional: Add logic here if you want something to happen when label2 is clicked.
+            // Example: MessageBox.Show("Buscar label clicked!");
         }
     }
 }
