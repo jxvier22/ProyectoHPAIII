@@ -21,5 +21,22 @@ namespace CapaPresentación
         {
 
         }
+
+        private void botonMenu_Click(object sender, EventArgs e)
+        {
+            MenuPrincipla menu = new MenuPrincipla();
+            menu.Show();
+            this.Hide();
+        }
+
+        private void botonMedicos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void botonPacientes_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

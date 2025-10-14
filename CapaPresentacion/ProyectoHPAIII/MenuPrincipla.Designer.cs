@@ -30,6 +30,7 @@
         {
             panel1 = new Panel();
             panel2 = new Panel();
+            BotonCitas = new Button();
             botonTratamientos = new Button();
             botonMenu = new Button();
             botonMedicos = new Button();
@@ -62,6 +63,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(BotonCitas);
             panel2.Controls.Add(botonTratamientos);
             panel2.Controls.Add(botonMenu);
             panel2.Controls.Add(botonMedicos);
@@ -74,6 +76,21 @@
             panel2.Size = new Size(236, 620);
             panel2.TabIndex = 1;
             // 
+            // BotonCitas
+            // 
+            BotonCitas.BackColor = Color.White;
+            BotonCitas.FlatAppearance.BorderColor = Color.White;
+            BotonCitas.FlatStyle = FlatStyle.Flat;
+            BotonCitas.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            BotonCitas.Location = new Point(28, 256);
+            BotonCitas.Name = "BotonCitas";
+            BotonCitas.Padding = new Padding(1);
+            BotonCitas.Size = new Size(175, 43);
+            BotonCitas.TabIndex = 18;
+            BotonCitas.Text = "Citas";
+            BotonCitas.UseVisualStyleBackColor = false;
+            BotonCitas.Click += BotonCitas_Click;
+            // 
             // botonTratamientos
             // 
             botonTratamientos.BackColor = Color.White;
@@ -82,24 +99,26 @@
             botonTratamientos.FlatStyle = FlatStyle.Flat;
             botonTratamientos.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             botonTratamientos.ForeColor = Color.Black;
-            botonTratamientos.Location = new Point(41, 295);
+            botonTratamientos.Location = new Point(39, 344);
             botonTratamientos.Name = "botonTratamientos";
             botonTratamientos.Padding = new Padding(1);
             botonTratamientos.Size = new Size(155, 43);
             botonTratamientos.TabIndex = 17;
             botonTratamientos.Text = "Tratamientos";
             botonTratamientos.UseVisualStyleBackColor = false;
+            botonTratamientos.Click += botonTratamientos_Click;
             // 
             // botonMenu
             // 
-            botonMenu.BackColor = Color.White;
+            botonMenu.BackColor = SystemColors.HotTrack;
             botonMenu.FlatAppearance.BorderColor = Color.White;
             botonMenu.FlatStyle = FlatStyle.Flat;
             botonMenu.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            botonMenu.Location = new Point(57, 70);
+            botonMenu.ForeColor = Color.White;
+            botonMenu.Location = new Point(0, 70);
             botonMenu.Name = "botonMenu";
             botonMenu.Padding = new Padding(10);
-            botonMenu.Size = new Size(120, 57);
+            botonMenu.Size = new Size(236, 57);
             botonMenu.TabIndex = 12;
             botonMenu.Text = "Menú";
             botonMenu.UseVisualStyleBackColor = false;
@@ -110,13 +129,14 @@
             botonMedicos.FlatAppearance.BorderColor = Color.White;
             botonMedicos.FlatStyle = FlatStyle.Flat;
             botonMedicos.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            botonMedicos.Location = new Point(58, 115);
+            botonMedicos.Location = new Point(57, 123);
             botonMedicos.Name = "botonMedicos";
             botonMedicos.Padding = new Padding(10);
             botonMedicos.Size = new Size(120, 54);
             botonMedicos.TabIndex = 13;
             botonMedicos.Text = "Medicos";
             botonMedicos.UseVisualStyleBackColor = false;
+            botonMedicos.Click += botonMedicos_Click;
             // 
             // botonPacientes
             // 
@@ -139,13 +159,14 @@
             botonAdministradores.FlatAppearance.BorderColor = Color.White;
             botonAdministradores.FlatStyle = FlatStyle.Flat;
             botonAdministradores.Font = new Font("Mulish", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            botonAdministradores.Location = new Point(28, 252);
+            botonAdministradores.Location = new Point(28, 295);
             botonAdministradores.Name = "botonAdministradores";
             botonAdministradores.Padding = new Padding(1);
             botonAdministradores.Size = new Size(175, 43);
             botonAdministradores.TabIndex = 16;
             botonAdministradores.Text = "Administradores";
             botonAdministradores.UseVisualStyleBackColor = false;
+            botonAdministradores.Click += botonAdministradores_Click;
             // 
             // botonClinicas
             // 
@@ -160,6 +181,7 @@
             botonClinicas.TabIndex = 15;
             botonClinicas.Text = "Clinicas";
             botonClinicas.UseVisualStyleBackColor = false;
+            botonClinicas.Click += botonClinicas_Click;
             // 
             // label1
             // 
@@ -293,5 +315,6 @@
         private DataGridView dataGridView2;
         private Label label4;
         private Label label5;
+        private Button BotonCitas;
     }
 }
