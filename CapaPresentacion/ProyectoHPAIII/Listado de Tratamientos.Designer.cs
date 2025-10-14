@@ -37,6 +37,7 @@
             botonPacientes = new Button();
             botonAdministradores = new Button();
             botonClinicas = new Button();
+            label1 = new Label();
             panel2.SuspendLayout();
             SuspendLayout();
             // 
@@ -174,17 +175,30 @@
             botonClinicas.Text = "Clinicas";
             botonClinicas.UseVisualStyleBackColor = false;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Dock = DockStyle.Fill;
+            label1.Font = new Font("Mulish", 23.9999981F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(326, 78);
+            label1.Name = "label1";
+            label1.Size = new Size(150, 55);
+            label1.TabIndex = 4;
+            label1.Text = "Clínica";
+            // 
             // Pantalla13
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1262, 673);
+            Controls.Add(label1);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "Pantalla13";
             Text = "Pantalla13";
             panel2.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -198,5 +212,6 @@
         private Button botonAdministradores;
         private Button botonMedicos;
         private Button botonPacientes;
+        private Label label1;
     }
 }
