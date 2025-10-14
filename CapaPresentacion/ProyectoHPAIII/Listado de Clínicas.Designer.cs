@@ -20,13 +20,18 @@
             base.Dispose(disposing);
         }
 
+        private Label GetLabel2()
+        {
+            return label2;
+        }
+
         #region Windows Form Designer generated code
 
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent()
+        private void InitializeComponent(Label label2)
         {
             panel1 = new Panel();
             panel2 = new Panel();
@@ -293,5 +298,11 @@
         private ComboBox comboBox1;
         private Button button1;
         private DataGridView dataGridView1;
+
+        // Add this method to your Pantalla14 class (usually in Listado de Clínicas.cs, not the Designer file)
+        private void label2_Click(object sender, EventArgs e)
+        {
+            // You can add any desired logic here, or leave it empty if not needed
+        }
     }
 }

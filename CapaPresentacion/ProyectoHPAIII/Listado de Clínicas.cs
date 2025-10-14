@@ -14,7 +14,7 @@ namespace CapaPresentación
     {
         public Pantalla14()
         {
-            InitializeComponent();
+            InitializeComponent(GetLabel2());
         }
 
         private void Pantalla14_Load(object sender, EventArgs e)
